@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #ffffff;
 }
@@ -23,7 +27,7 @@ body {
 
 .content {
   background-color: #111111;
-  padding: 10% ;
+  padding: 10% 10% 2% ;
   margin: 0;
 }
 
@@ -32,7 +36,7 @@ body {
   font-size: 3em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .fullname {
@@ -56,7 +60,7 @@ body {
   color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1em;
-  padding: 0;
+  padding: 1%;
   margin: 0;
   font-weight: 200;
 }
@@ -80,12 +84,12 @@ body {
 a {
   text-decoration: none;
   color: #5e86bf;
-  transition: all 1s;
+  transition: all 0.8s;
   font-weight: 900;
 }
 
 a:hover {
-  color: #888888;
+  color: #ffffff;
 }
 
 .divider {
@@ -122,13 +126,13 @@ a:hover {
 
 .content-bottom {
   background-color: #111111;
-  padding: 10% ;
-  margin: 0;
+  padding: 0 10% 5%;
 }
 
 .contact-card {
   background: #111111;
   margin: 5%;
+  margin-top: 33%;
   padding: 5% 0 15% 0;
   opacity: 0.75;
   border-radius: 3%;
@@ -149,4 +153,60 @@ a:hover {
   font-weight: 300;
   margin: 0 auto;
   text-align: center;
+}
+
+.social {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.port-title-card {
+  background: #ffffff;
+  margin: 0;
+  padding: 0 0 5% 5%;
+  opacity: 0.85;
+  transform: perspective(1px) translateZ(0);
+  transition: all 1s;
+  transition-property: transform;
+}
+
+.port-title-text {
+  color: #111111;
+  font-size: 2.5vw;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  padding-top: 2vh;
+  margin: 0 auto;
+}
+
+.port-body-card {
+  background: #111111;
+  margin-bottom: 2vh;
+  padding: 0 0 5% 5%;
+  transform: perspective(1px) translateZ(0);
+  transition: all 1s;
+  transition-property: transform;
+  border: 2px #ffffff solid;
+}
+
+.norm-btn {
+  font-family: 'PT Mono', monospace;
+  padding: 0.3em 1em;
+  font-size: 1.5em;
+  background-color: #5e86bf;
+  color: #ffffff;
+  border: 2px #ffffff solid;
+  transition: all 0.8s;
+}
+
+.norm-btn:hover {
+  color: #5e86bf;
+  background-color: #ffffff;
+}
+
+.skill-box {
+  margin-top: 9em;
 }

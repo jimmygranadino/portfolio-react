@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Divider from './components/Divider'
+import Navbar from './components/Navbar'
 
 
 function App() {
