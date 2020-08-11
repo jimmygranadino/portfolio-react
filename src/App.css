@@ -10,6 +10,17 @@ body {
   background: #111111;
 }
 
+ul {
+  padding: 0;
+  text-decoration: none;
+  margin: 0 auto;
+  border-top: 1px #ffffff solid;
+}
+
+li {
+  list-style: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -199,6 +210,7 @@ a:hover {
   color: #ffffff;
   border: 2px #ffffff solid;
   transition: all 0.8s;
+  margin: 1em;
 }
 
 .norm-btn:hover {
@@ -208,6 +220,13 @@ a:hover {
 
 .skill-box {
   margin-top: 9em;
+}
+
+.skill-list {
+  display: flex;
+  margin-top: 0 auto;
+  justify-content: space-between;
+  justify-items: left;
 }
 
 .avatar {
@@ -244,4 +263,8 @@ a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   margin: 0 auto;
+}
+
+.no-marg {
+  margin: 0;
 }

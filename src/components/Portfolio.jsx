@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <br />
                 <p className="content-text">Tech used includes Node.js, Express and PostgreSQL.</p>
                 <br />
-                <a href="#" className="norm-btn">REPO</a> <a href="#" className="norm-btn">DEPLOYMENT</a>
+                <a href="https://github.com/jimmygranadino/p2" className="norm-btn">REPO</a> <a href="https://col-cities.herokuapp.com/" className="norm-btn">DEPLOYMENT</a>
             </div>
             <div className="port-title-card">
                 <h2 className="port-title-text">BADGER DODGER</h2>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                 <br />
                 <p className="content-text">Tech used includes HTML5, CSS3 and JavaScript.</p>
                 <br />
-                <a href="#" className="norm-btn">REPO</a> <a href="#" className="norm-btn">DEPLOYMENT</a>
+                <a href="https://github.com/jimmygranadino/badgerdodger" className="norm-btn">REPO</a> <a href="https://jimmygranadino.github.io/badgerdodger/" className="norm-btn">DEPLOYMENT</a>
             </div>
         </section>
     )
