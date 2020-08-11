@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import './images/BGalt.jpg'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Divider from './components/Divider'
-
+import Navbar from './components/Navbar'
 
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
         </div>
         <div className="content">
           <Router>
+            <Navbar />
             <Route exact path="/" component={About} />
             <Route exact path="/" component={Skills} />
           </Router>
@@ -38,14 +39,14 @@ function App() {
           </Router>
         </div>
         <div className="container-bottom">
-          <div class="content-bottom">
-            <Router>
-              <Route path="/" component={Portfolio} />
-            </Router>
-          </div>
-          <div className="landing-bottom">
+          <div class="landing-bottom">
             <Router>
               <Route path="/" component={Contact} />
+            </Router>
+          </div>
+          <div className="content-bottom">
+            <Router>
+              <Route path="/" component={Portfolio} />
             </Router>
           </div>
         </div>

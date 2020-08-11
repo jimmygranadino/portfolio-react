@@ -2,7 +2,7 @@ import React from 'react';
 
 const Portfolio = () => {
     return (
-        <div>
+        <section id="portfolio">
             <hr></hr>
             <h1 className="headings" id="portfolio">PORTFOLIO:</h1>
             <div className="port-title-card">
@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className="port-body-card">
                 <p className="content-text">RESTful routing, APIs and CRUD operation showcase item here.</p>
                 <br />
-                <p className="content-text">Tech used include and MongoDB, Express, React.js and Node.js.</p>
+                <p className="content-text">Tech used includes MongoDB, Express, React.js and Node.js.</p>
                 <br />
                 <a href="#" className="norm-btn">REPO</a> <a href="#" className="norm-btn">DEPLOYMENT</a>
             </div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
                 <br />
                 <a href="#" className="norm-btn">REPO</a> <a href="#" className="norm-btn">DEPLOYMENT</a>
             </div>
-        </div>
+        </section>
     )
 }
 
