@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className="port-body-card">
                 <p className="content-text">RESTful routing, APIs and CRUD operation showcase item here.</p>
                 <br />
-                <p className="content-text">Tech used include React.js and MongoDB.</p>
+                <p className="content-text">Tech used include and MongoDB, Express, React.js and Node.js.</p>
                 <br />
                 <a href="#" className="norm-btn">REPO</a> <a href="#" className="norm-btn">DEPLOYMENT</a>
             </div>
