@@ -1,5 +1,4 @@
 import React from 'react';
-import '../icons/layers-fill.svg'
 
 const About = () => {
     return (
