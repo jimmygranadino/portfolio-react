@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap');
+
+body {
+  background: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-self: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.landing {
+  height: 130vh;
+  background-image: url('./images/BGalt.jpg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content {
+  background-color: #111111;
+  padding: 10% ;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.headings {
+  color: #ffffff;
+  font-size: 3em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  padding-bottom: 0.25em;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fullname {
+  color: #ffffff;
+  font-size: 6em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
+.role {
+  color: #ffffff;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.about {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+}
+
+.title-card {
+  background: #111111;
+  margin: 5%;
+  padding: 0 0 5% 5%;
+  opacity: 0.7;
+  border-radius: 2% 6% 15%;
 }
