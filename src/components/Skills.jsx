@@ -49,7 +49,7 @@ const Skills = () => {
                 </p>
                 </div>
             <br /><br />
-            <a href={Resume} target="_blank" rel="noopener noreferrer" className="norm-btn no-marg">VIEW MY RESUME</a>
+            <a href={Resume} target="_blank" rel="noopener noreferrer" className="nav-link no-marg">VIEW MY RESUME</a>
         </div>
     )
 }
