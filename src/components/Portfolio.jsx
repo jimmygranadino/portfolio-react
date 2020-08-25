@@ -6,14 +6,14 @@ const Portfolio = () => {
             <hr></hr>
             <h1 className="headings" id="portfolio">PORTFOLIO:</h1>
             <div className="port-title-card">
-                <h2 className="port-title-text">CRUD OPS</h2>
+                <h2 className="port-title-text">MINIBLAB</h2>
             </div>
             <div className="port-body-card">
-                <p className="content-text">RESTful routing, APIs and CRUD operation showcase item here.</p>
+                <p className="content-text">Light-weight chatroom app utilizing Socket.io and Vue.js</p>
                 <br />
-                <p className="content-text">Tech used includes MongoDB, Express, React.js and Node.js.</p>
+                <p className="content-text">Tech used includes Vue.js, Node.js and Express.</p>
                 <br />
-                <a href="#" className="norm-btn">REPO</a> <a href="#" className="norm-btn">DEPLOYMENT</a>
+                <a href="#https://github.com/jimmygranadino/miniblab" className="norm-btn">REPO</a> <a href="#https://wonderful-haibt-c86035.netlify.app/" className="norm-btn">DEPLOYMENT</a>
             </div>
             <div className="port-title-card">
                 <h2 className="port-title-text">COL CITIES</h2>
@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <br />
                 <p className="content-text">Tech used includes Node.js, Express and PostgreSQL.</p>
                 <br />
-                <a href="https://github.com/jimmygranadino/p2" className="norm-btn">REPO</a> <a href="https://col-cities.herokuapp.com/" className="norm-btn">DEPLOYMENT</a>
+                <a href="https://github.com/jimmygranadino/p2" className="norm-btn">REPO</a> <a href="https://colcities.herokuapp.com/" className="norm-btn">DEPLOYMENT</a>
             </div>
             <div className="port-title-card">
                 <h2 className="port-title-text">BADGER DODGER</h2>
