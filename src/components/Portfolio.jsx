@@ -13,7 +13,7 @@ const Portfolio = () => {
                 <br />
                 <p className="content-text">Tech used includes Vue.js, Node.js and Express.</p>
                 <br />
-                <a href="#https://github.com/jimmygranadino/miniblab" className="norm-btn">REPO</a> <a href="#https://wonderful-haibt-c86035.netlify.app/" className="norm-btn">DEPLOYMENT</a>
+                <a href="https://github.com/jimmygranadino/miniblab" target="_blank" className="norm-btn">REPO</a> <a href="https://wonderful-haibt-c86035.netlify.app/" target="_blank" className="norm-btn">DEPLOYMENT</a>
             </div>
             <div className="port-title-card">
                 <h2 className="port-title-text">COL CITIES</h2>
@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <br />
                 <p className="content-text">Tech used includes Node.js, Express and PostgreSQL.</p>
                 <br />
-                <a href="https://github.com/jimmygranadino/p2" className="norm-btn">REPO</a> <a href="https://colcities.herokuapp.com/" className="norm-btn">DEPLOYMENT</a>
+                <a href="https://github.com/jimmygranadino/p2" target="_blank" className="norm-btn">REPO</a> <a href="https://colcities.herokuapp.com/" target="_blank" className="norm-btn">DEPLOYMENT</a>
             </div>
             <div className="port-title-card">
                 <h2 className="port-title-text">BADGER DODGER</h2>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                 <br />
                 <p className="content-text">Tech used includes HTML5, CSS3 and JavaScript.</p>
                 <br />
-                <a href="https://github.com/jimmygranadino/badgerdodger" className="norm-btn">REPO</a> <a href="https://jimmygranadino.github.io/badgerdodger/" className="norm-btn">DEPLOYMENT</a>
+                <a href="https://github.com/jimmygranadino/badgerdodger" target="_blank" className="norm-btn">REPO</a> <a href="https://jimmygranadino.github.io/badgerdodger/" target="_blank" className="norm-btn">DEPLOYMENT</a>
             </div>
         </section>
     )
