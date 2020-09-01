@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Contact = () => {
+    
     return (
         <div className="contact-card">
             <p className="contact-heading">Connect with me:</p>
