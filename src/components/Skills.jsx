@@ -15,8 +15,8 @@ const Skills = () => {
                         <li>JavaScript</li>
                         <li>Python</li>
                         <li>SQL</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
                         <li>TypeScript</li>
                     </ul>
                 </p>
@@ -29,7 +29,7 @@ const Skills = () => {
                         <li>Express</li>
                         <li>Node.js</li>
                         <li>React.js</li>
-                        <li>Next.js</li>
+                        <li>Vue.js</li>
                         <li>jQuery</li>
                         <li>Flask</li>
                     </ul>
