@@ -4,7 +4,7 @@ import Resume from './JGresume.pdf'
 const Skills = () => {
     return (
         <section id="skills">
-            <div className="skill-box">
+            <div className="content">
                 <h1 className="headings" id="skills">SKILLS:</h1>
                     <div className="skill-list">
                     <p className="content-text heavy-text">
@@ -49,8 +49,7 @@ const Skills = () => {
                         </ul>
                     </p>
                     </div>
-                <br /><br />
-                <a href={Resume} target="_blank" rel="noopener noreferrer" className="nav-link no-marg">VIEW MY RESUME</a>
+                <a href={Resume} target="_blank" rel="noopener noreferrer" className="res-link no-marg">VIEW MY RESUME</a>
             </div>
         </section>
     )
