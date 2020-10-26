@@ -6,17 +6,14 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
-import Divider from './components/Divider'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
+import Landing from './components/Landing'
 
 function App() {
   return (
     <main>
       <div className="container">
       <Router>
-        <Navbar />
-        <Header />
+        <Landing />
         <About />
         <Skills />
         <Portfolio />
