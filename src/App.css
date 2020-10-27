@@ -59,8 +59,7 @@ a {
 }
 
 a:hover {
-  color: #5e86bf;
-  background-color: #ffffff;
+  color: #ffffff;
 }
 
 .container-bottom {
@@ -86,16 +85,8 @@ a:hover {
   background: #111111;
   margin: 5%;
   padding: 5% 0 3% 0;
-  opacity: 0.80;
-  border-radius: 3%;
-  transform: perspective(1px) translateZ(0);
-  transition: all 1s;
-  transition-property: transform;
-}
-
-.contact-card:hover {
-  opacity: 0.93;
-  transform: scale(1.05);
+  opacity: 0.85;
+  border-radius: 1em;
 }
 
 .contact-heading {
@@ -115,18 +106,29 @@ a:hover {
   padding-top: 1em;
 }
 
+.link-deco {
+  text-decoration: none;
+  color: #5e86bf;
+  transition: all 0.8s;
+  font-weight: 900;
+}
+
+.link-deco:hover {
+  color: #ffffff;
+}
+
 .port-title-card {
   background: #5e86bf;
   margin: 0;
-  padding: 0 0 5% 5%;
+  padding: 0 0 2% 6%;
   border-radius: 1em 1em 0 0;
 }
 
 .port-title-text {
   color: #ffffff;
-  font-size: 2.5vw;
+  font-size: 2.25vw;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   padding-top: 2vh;
   margin: 0 auto;
 }
@@ -209,18 +211,14 @@ a:hover {
   border-radius: 0.5em;
 }
 
-.nav-link {
+.res-link:hover {
   color: #5e86bf;
-  font-size: 3vw;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  margin: 0 auto;
-  padding: 10px 45px 10px 45px;
+  background-color: #ffffff;
 }
 
-.no-marg {
-  margin: 0 auto;
-}
+
+
+
 
 
 
@@ -240,23 +238,29 @@ a:hover {
 
 .navbar-link {
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   margin: 0em 0.5em;
-  padding: 5px 10px;
+  padding: 5px 14px;
   background-color: #5e86bf;
   opacity: 0.9;
   float: right;
   border-radius: 0.25em;
 }
 
+.navbar-link:hover {
+  color: #5e86bf;
+  background-color: #ffffff;
+}
+
 .navbrand {
   background: #ffffff;
   text-align: right;
   color: #111111;
-  padding: 0.25em;
+  padding: 0.15em 0.4em;
   border-radius: 0.1em;
+  opacity: 0.9;
 }
 
 .navbrand-text {
@@ -266,7 +270,7 @@ a:hover {
   font-weight: 200;
   margin: 0 auto;
   text-align: center;
-  letter-spacing: 0.1em;
+  letter-spacing: -0.1em;
 }
 
 .navbar-button {
@@ -334,6 +338,66 @@ a:hover {
   margin-right: 1em;
 }
 
+.arrow {
+  border: solid #ffffff;
+  margin: -2em 0 0 5em;
+  border-width: 0px 0px 5px 5px;
+  display: inline-block;
+  padding: 1.5em;
+  box-shadow: -2px 3px #111111;
+  border-radius: 5%;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.scroller {
+  position: absolute;
+  top: 75%;
+  left: 42%;
+}
+
+.scroller-text {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  margin-top: 1em;
+  letter-spacing: .2em;
+  text-shadow: 1px 2px 5px #111111, 1px 1px 0px #111111, -1px -2px 2px #111111 ;
+  transition: all 0.5s;
+}
+
+.scroller-text:hover {
+  transform: scale(1.1);
+}
+
 .headings {
   color: #ffffff;
   font-size: 2em;
@@ -369,16 +433,24 @@ a:hover {
 .port-one {
   grid-column: 1;
   grid-row: 1;
+  transition: all 0.5s;
 }
 
 .port-two {
   grid-column: 2;
   grid-row: 1;
+  transition: all 0.5s;
 }
 
 .port-three {
   grid-column: 1;
   grid-row: 2;
+  transition: all 0.5s;
+}
+
+.port-one:hover, .port-two:hover, .port-three:hover {
+  transform: scale(1.02);
+  filter: brightness(120%);
 }
 
 .send-btn {
@@ -413,7 +485,7 @@ textarea {
   height: 20em;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar {background-color: #111111;}
   .navbar a.navbar-button {
@@ -450,9 +522,12 @@ textarea {
   .portfolio-grid {
     display: block;
   }
+  .scroller {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .navbar.responsive {
     position: absolute;
     z-index: 9999;

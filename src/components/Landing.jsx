@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Header from './Header';
-
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Landing = () => {
     
@@ -10,6 +10,11 @@ const Landing = () => {
                 <div className="landing">
                     <Navbar />
                     <Header />
+                    <div className="scroller">
+                        <Link to="#about">
+                            <i className="arrow"></i>
+                        </Link>
+                    </div>
                 </div>
         </section>
     )
