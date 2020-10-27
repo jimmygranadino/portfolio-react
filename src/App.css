@@ -27,12 +27,6 @@ li {
   height: 100%;
 }
 
-
-
-
-
-
-
 .title-card {
   background: #111111;
   margin: 5%;
@@ -121,21 +115,6 @@ a:hover {
   color: #5e86bf;
   background-color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .navbar {
   background-color: transparent;
@@ -471,9 +450,12 @@ a:hover {
     color: #5e86bf;
     margin: 0.5em;
   }
+  .landing {
+    padding-top: 80%;
+  }
   .landing-card {
-    width: 80%;
-    height: 50%;
+    width: 80vw;
+    height: 55vw;
   }
   .fullname {
     font-size: 2.5em;
@@ -491,6 +473,9 @@ a:hover {
     position: absolute;
     top: 0.25em;
   }
+  .res-link {
+    font-size: 1.5em;
+  }
   .norm-btn {
     line-height: 3em;
     margin: 0 auto;
@@ -506,6 +491,14 @@ a:hover {
   }
   .contact-heading {
     font-size: 1.3em;
+  }
+  .avatar {
+    margin: 1.5em 0 0 0;
+    width: 90%;
+  }
+  svg {
+    width: 2em;
+    height: 2em;
   }
 }
 
