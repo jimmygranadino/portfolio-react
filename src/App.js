@@ -11,17 +11,17 @@ import Landing from './components/Landing'
 function App() {
   return (
     <main>
-      <div className="container">
-      <Router>
-        <Landing />
-        <About />
-        <Skills />
-        <Portfolio />
-        <div class="landing-bottom">
-          <Contact />
+        <div className="container">
+        <Router>
+          <Landing />
+          <About />
+          <Skills />
+          <Portfolio />
+          <div className="landing-bottom">
+            <Contact />
+          </div>
+        </Router>
         </div>
-      </Router>
-      </div>
     </main>
   );
 }

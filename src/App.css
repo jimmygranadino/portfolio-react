@@ -24,6 +24,7 @@ li {
 .container {
   display: grid;
   align-self: center;
+  height: 100%;
 }
 
 
@@ -142,13 +143,12 @@ a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   padding: 0.3em 1em;
-  font-size: 2vw;
+  font-size: 1.5em;
   background-color: #5e86bf;
   color: #ffffff;
-  border: 2px #ffffff solid;
-  border-radius: 0.5em;
+  border-radius: 0.25em;
   transition: all 0.8s;
-  margin: 1vh;
+  margin: 2vh;
 }
 
 .norm-btn:hover {
@@ -199,13 +199,13 @@ a:hover {
 }
 
 .res-link {
-  color: #5e86bf;
+  color: #ffffff;
+  background-color: #5e86bf;
   font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  margin: 0 auto;
-  padding: 10px 45px 10px 45px;
-  border: 3px solid;
+  font-weight: 300;
+  margin: 1.25em 1em 0.2em;
+  padding: 10px 55px 10px 55px;
   border-radius: 0.5em;
 }
 
@@ -233,9 +233,9 @@ a:hover {
   padding: 1% 5% ;
   margin: 0 auto;
   position: absolute;
-  top: 0vw;
+  top: 0;
   width: 90%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .navbar-link {
@@ -267,6 +267,10 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   letter-spacing: 0.1em;
+}
+
+.navbar-button {
+  display: none;
 }
 
 .landing {
@@ -320,10 +324,14 @@ a:hover {
 
 .location-text {
   color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.75vw;
+  font-family: 'PT Mono', sans-serif;
+  font-size: 1.25vw;
   line-height: 1em;
-  font-weight: 400;
+  font-weight: bold;
+}
+
+.map-icon {
+  margin-right: 1em;
 }
 
 .headings {
@@ -351,6 +359,118 @@ a:hover {
   font-weight: 400;
 }
 
-.portfolio-row {
-  grid-template-columns: 50% 50%;
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 2;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.port-one {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.port-two {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.port-three {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.send-btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0.25em 1em;
+  border-radius: 0.5em;
+  border: 0px;
+  background-color: #5e86bf;
+  color: #ffffff;
+  transition: 0.5s;
+  margin-left: 4.5em;
+}
+
+.send-btn:hover {
+  background-color: #ffffff;
+  color: #5e86bf;
+}
+
+input {
+  border-radius: 0.5em;
+  border: 0px;
+  width: 20em;
+  height: 2em;
+}
+
+textarea {
+  border-radius: 0.5em;
+  border: 0px;
+  width: 20em;
+  height: 20em;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar {background-color: #111111;}
+  .navbar a.navbar-button {
+    float: right;
+    display: block;
+  }
+  .landing-card {
+    width: 80%;
+    height: 50%;
+  }
+  .fullname {
+    font-size: 2.5em;
+    margin: 0 0 0.5em;
+  }
+  .role {
+    font-size: 1.5em;
+  }
+  .location-text {
+    font-size: 0.9em;
+  }
+  .navbrand-text {
+    font-size: 1em;
+    padding: 0.5em;
+    position: absolute;
+    top: 0.25em;
+  }
+  .norm-btn {
+    line-height: 3em;
+    margin: 0 auto;
+  }
+  .port-title-text {
+    font-size: 1.5em;
+  }
+  .portfolio-grid {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar.responsive {
+    position: absolute;
+    z-index: 9999;
+  }
+  .navbar.responsive a.navbar-button {
+    position: absolute;
+    right: 1.5em;
+    top: 0.3em;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    z-index: 9997;
+  }
+  .navbar-link {
+    background-color: transparent;
+    margin-top: 1.5em;
+    z-index: 9998;
+  }
 }
