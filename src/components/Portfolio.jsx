@@ -5,7 +5,6 @@ const Portfolio = () => {
     return (
         <section>
             <div className="content">
-                <span className="span-border"></span>
                 <h1 className="headings" id="portfolio">PORTFOLIO:</h1>
                 <div className="portfolio-grid">
                     <a href="https://wonderful-haibt-c86035.netlify.app/" target="_blank" rel="noopener noreferrer">

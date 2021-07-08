@@ -294,7 +294,7 @@ a:hover {
 }
 
 .about-box {
-  background-color: #1f1f1f;
+  background-color: #252525;
   border-radius: 0.5em;
   margin-left: 0.5em;
 }
@@ -367,7 +367,7 @@ a:hover {
   transition: all 0.5s;
   border: 2px #5e86bf solid;
   border-radius: 0.5em;
-  background: linear-gradient(to left, #1f1f1f 50%, #5e86bf 50%);
+  background: linear-gradient(to left, #252525 50%, #5e86bf 50%);
   background-size: 200% 100%;
   background-position:right bottom;
 }
@@ -505,6 +505,12 @@ a:hover {
   .content-text {
     font-size: 1em;
     line-height: 2em;
+  }
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+  .skills-box {
+    margin-left: 0.5em;
   }
 }
 
