@@ -78,7 +78,8 @@ a:hover {
 .port-title-card {
   background: #5e86bf;
   margin: 0;
-  padding: 1em;
+  padding: 1.7%;
+  border-radius: 0.4em 0 0 0.4em;
 }
 
 .port-title-text {
@@ -88,7 +89,6 @@ a:hover {
   font-size: 2.25vw;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  padding-top: 1vh;
   margin: 0 auto;
 }
 
@@ -297,12 +297,19 @@ a:hover {
   background-color: #252525;
   border-radius: 0.5em;
   margin-left: 0.5em;
+  transition: all 0.5s;
 }
 
 .skills-box {
   border-radius: 0.5em;
   background-color: #5e86bf;
   margin: unset;
+  transition: all 0.5s;
+}
+
+.about-box:hover, .skills-box:hover {
+  transform: scale(1.02);
+  filter: brightness(115%);
 }
 
 .content-text {

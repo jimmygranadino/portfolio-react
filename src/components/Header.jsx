@@ -7,7 +7,7 @@ const Header = () => {
             <div className="landing-card">
                 <p className="fullname">JIMMY GRANADINO</p>
                 <hr />
-                <p className="role">Full Stack Developer</p>
+                <p className="role">Software Engineer</p>
                 
                 <p className="location-text">
                     <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" className="map-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
