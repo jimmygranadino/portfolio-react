@@ -313,8 +313,7 @@ a:hover {
 }
 
 .about-box:hover, .skills-box:hover {
-  transform: scale(1.02);
-  filter: brightness(115%);
+  filter: brightness(120%);
 }
 
 .content-text {
@@ -370,9 +369,6 @@ a:hover {
 
 .portfolio-grid {
   display: block;
-  /*grid-template-columns: 1;
-  grid-gap: 10px;
-  grid-auto-rows: minmax(200px, auto);*/
 }
 
 .port-one, .port-two, .port-three {
