@@ -110,6 +110,17 @@ a:hover {
   top: 0;
   width: 90%;
   overflow: visible;
+  transition: all .7s ease-in;
+  z-index: 3;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111111;
+  backdrop-filter: blur(24px);
+  opacity: 0.8;
 }
 
 .navbar-link {

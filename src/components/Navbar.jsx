@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
@@ -12,9 +12,24 @@ const Navbar = () => {
         }
     }
 
+    const [scrolled,setScrolled]=React.useState(false);
+
+    const handleScroll=() => {
+        const offset=window.scrollY;
+        if(offset > 350 ){
+        setScrolled(true);
+    }
+    else{
+        setScrolled(false);
+        }
+    }
+    useEffect(() => {
+        window.addEventListener('scroll',handleScroll)
+    })
+
     return (
         <nav>
-            <div className="navbar" id="myNavbar">
+            <div className={scrolled ? 'navbar scrolled' : 'navbar'} id="myNavbar">
                 <span className="navbrand-text navbrand">JG</span>
                 <Link className="navbar-link" to="#contact">CONTACT</Link>
                 <Link className="navbar-link" to="#portfolio">PORTFOLIO</Link>
