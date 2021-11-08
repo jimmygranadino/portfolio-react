@@ -34,7 +34,7 @@ const Portfolio = () => {
                                 </span>
                             </span>
                             <span className="port-body-card">
-                                <span className="content-text">Current exchange rates for a list of curated cities across the globe using the Fixer.io API</span>
+                                <span className="content-text">Exchange rates for a list of curated cities across the globe using the Fixer.io API</span>
                             </span>
                         </div>
                     </a>
@@ -51,7 +51,7 @@ const Portfolio = () => {
                                 </span>
                             </span>
                             <span className="port-body-card">
-                                <span className="content-text">2D scrolling game where you lead a plucky badger across unforgiving terrain in pursuit of food.</span>
+                                <span className="content-text">2D scroller where you lead a badger across unforgiving terrain in pursuit of food</span>
                             </span>
                         </div>
                     </a>
