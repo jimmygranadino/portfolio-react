@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from './JGresume.pdf'
 
 const About = () => {
     
@@ -8,6 +9,7 @@ const About = () => {
                 <div className="content about-box">
                     <h1 className="headings" id="about">ABOUT:</h1>
                     <p className="content-text">I'm an enthusiastic developer with an eye towards optimizing business functions. As an analyst by experience, I bring a sociable demeanor while researching challenges and collaborating with cross-functional teams to implement efficient solutions for modern business problems. </p>
+                    <a href={Resume} target="_blank" rel="noopener noreferrer" className="res-link">VIEW MY RESUME</a>
                 </div>
                 <div className="content skills-box">
                     <h1 className="headings" id="skills">SKILLS:</h1>

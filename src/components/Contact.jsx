@@ -7,7 +7,15 @@ const Contact = () => {
         <section id="contact">
             <div className="contact-card">
                 <div className="contact-content">
-                    <p className="contact-heading contact-one">Connect with me:</p>
+                    <p className="contact-heading contact-one">Contact on the following platforms:
+                    <div className="phone-social">
+                        <br />
+                        <p className="social-text"><a href="http://linkedin.com/in/jimmygranadino"  className="social-text">LINKEDIN</a></p>
+                        <p className="social-text"><a href="https://github.com/jimmygranadino" className="social-text">GITHUB</a></p>
+                        <p className="social-text"><a href="https://www.facebook.com/jimmygranadino" className="social-text">FACEBOOK</a></p>
+                        <p className="social-text"><a href="https://instagram.com/rockpaperjimmy" className="social-text">INSTAGRAM</a></p>
+                    </div>
+                    </p>
                     <br />
                     <div className="social contact-two">
                         <div className="icon-spacing">
