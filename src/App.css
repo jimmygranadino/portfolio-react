@@ -481,7 +481,7 @@ a:hover {
     margin: 0.5em;
   }
   .landing {
-    padding-top: 80%;
+    padding-top: 85%;
   }
   .landing-card {
     background-color: transparent;
@@ -571,6 +571,9 @@ a:hover {
   }
   .contact-three {
     padding-right: 1em;
+  }
+  .res-link {
+    letter-spacing: 0.1em;
   }
 }
 
