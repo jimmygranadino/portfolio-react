@@ -12,7 +12,7 @@ const Landing = () => {
                     <Header />
                     <div className="scroller">
                         <Link to="#about">
-                            <i className="arrow"></i>
+                            <i className="arrow dark-mode light-mode"></i>
                         </Link>
                     </div>
                 </div>

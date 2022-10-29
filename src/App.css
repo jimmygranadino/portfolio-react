@@ -2,6 +2,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
+@media (prefers-color-scheme: dark) {
+  .day.dark-mode {
+    background: #111111;
+    color: #ffffff;
+  }
+  .night.dark-mode {
+    background: #111111;
+    color: #ffffff;
+  }
+  .navbar-link.dark-mode {
+    background-color: #5e86bf;
+  }
+  .navbar-link.dark-mode:hover {
+    color: #5e86bf;
+    background-color: #ffffff;
+  }
+  .headings.dark-mode {
+    background-color: transparent;
+  }
+  .content-text.dark-mode {
+    background-color: #252525;
+  }
+  .about-box.dark-mode {
+    background-color: #252525;
+  }
+  .skills-box.dark-mode {
+    background-color: #5e86bf;
+  }
+  .skill-list.dark-mode {
+    background-color: #5e86bf;
+  }
+  .headings.dark-mode {
+    background: transparent;
+  }
+  .content-text.dark-mode {
+    background-color: transparent;
+  }
+  .arrow.dark-mode {
+    border: solid #111111;
+    margin: -2em 0 0 5em;
+    border-width: 0px 0px 5px 5px;
+    display: inline-block;
+    padding: 1.5em;
+    box-shadow: -2px 3px #111111;
+    border-radius: 5%;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+  }
+  .scrolled.dark-mode {
+    background-color: #111111;
+  }
+  .res-link.dark-mode {
+    color: #ffffff;
+  }
+  .language-list.dark-mode {
+    padding: 0;
+    text-decoration: none;
+    margin: 0 auto;
+    border-top: 1px #ffffff solid;
+  }
+  .social-hover.dark-mode {
+    text-decoration: none;
+    color: #5e86bf;
+    transition: all 0.8s;
+    font-weight: 900;
+  }
+  
+  .social-hover.dark-mode:hover {
+    color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .day.light-mode {
+    background: white;
+    color: #111111;
+  }
+  .night.light-mode {
+    background: #ffffff;
+    color: #111111;
+  }
+  .navbar-link.light-mode {
+    background-color: #86AEE7;
+  }
+  .navbar-link:hover {
+    color: #86AEE7;
+    background-color: #111111;
+  }
+  .headings.light-mode {
+    background-color: transparent;
+  }
+  .content-text.light-mode {
+    background-color: #dadada;
+  }
+  .about-box.light-mode {
+    background-color: #dadada;
+  }
+  .about-box.light-mode:hover {
+    filter: brightness(95%);
+  }
+  .skills-box.light-mode {
+    background-color: #86AEE7;
+  }
+  .skill-list.light-mode {
+    background-color: #86AEE7;
+  }
+  .content-text.light-mode {
+    background-color: transparent;
+  }
+  .arrow.light-mode {
+    border: solid #ffffff;
+    margin: -2em 0 0 5em;
+    border-width: 0px 0px 5px 5px;
+    display: inline-block;
+    padding: 1.5em;
+    box-shadow: -2px 3px #111111;
+    border-radius: 5%;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+  }
+  .scrolled.light-mode {
+    background-color: #ffffff;
+  }
+  .res-link.light-mode {
+    background-color: #86AEE7;
+    color: #111111;
+  }
+  .res-link.light-mode:hover {
+    background-color: #111111;
+  }
+  .language-list.light-mode {
+    padding: 0;
+    text-decoration: none;
+    margin: 0 auto;
+    border-top: 1px #111111 solid;
+  }
+  .social-hover.light-mode {
+    text-decoration: none;
+    color: #86AEE7;
+    transition: all 0.8s;
+    font-weight: 900;
+  }
+  
+  .social-hover.light-mode:hover {
+    color: #111111;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,7 +158,7 @@ body {
   background: #111111;
 }
 
-ul {
+.language-list {
   padding: 0;
   text-decoration: none;
   margin: 0 auto;
@@ -78,7 +226,7 @@ a:hover {
 .port-title-card {
   background: #5e86bf;
   margin: 0;
-  padding: 1.7%;
+  padding: 1.1%;
   border-radius: 0.4em 0 0 0.4em;
 }
 
@@ -134,11 +282,6 @@ a:hover {
   box-shadow: 1px 1px 3px #000000;
   float: right;
   border-radius: 0.1em;
-}
-
-.navbar-link:hover {
-  color: #5e86bf;
-  background-color: #ffffff;
 }
 
 .navbrand {
