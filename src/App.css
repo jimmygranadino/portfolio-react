@@ -148,6 +148,12 @@
   .social-hover.light-mode:hover {
     color: #111111;
   }
+  .landing-bottom.light-mode {
+    filter: brightness(150%);
+  }
+  .contact-card.light-mode {
+    filter: brightness(75%);
+  }
 }
 
 html {

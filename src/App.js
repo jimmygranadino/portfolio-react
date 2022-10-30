@@ -15,7 +15,7 @@ function App() {
           <Landing />
           <About />
           <Portfolio />
-          <div className="landing-bottom">
+          <div className="landing-bottom light-mode">
             <Contact />
           </div>
         </Router>
