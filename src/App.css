@@ -50,6 +50,12 @@
     animation: sdb05 1.5s infinite;
     box-sizing: border-box;
   }
+  .port-title-card.dark-mode {
+    background: transparent;
+  }
+  .port-title-text.dark-mode {
+    background: transparent;
+  }
   .scrolled.dark-mode {
     background-color: #111111;
   }
@@ -65,7 +71,7 @@
   .social-hover.dark-mode {
     text-decoration: none;
     color: #5e86bf;
-    transition: all 0.8s;
+    transition: all 0.4s;
     font-weight: 900;
   }
   
@@ -122,6 +128,12 @@
     animation: sdb05 1.5s infinite;
     box-sizing: border-box;
   }
+  .port-title-card.light-mode {
+    background: transparent;
+  }
+  .port-title-text.light-mode {
+    background: transparent;
+  }
   .scrolled.light-mode {
     background-color: #ffffff;
   }
@@ -141,7 +153,7 @@
   .social-hover.light-mode {
     text-decoration: none;
     color: #86AEE7;
-    transition: all 0.8s;
+    transition: all 0.4s;
     font-weight: 900;
   }
   
@@ -189,7 +201,7 @@ li {
   border-radius: 2% 6% 40%;
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  transition: all 1s;
+  transition: all 0.5s;
   transition-property: box-shadow, transform;
 }
 
@@ -202,7 +214,7 @@ li {
 a {
   text-decoration: none;
   color: #5e86bf;
-  transition: all 0.8s;
+  transition: all 0.5s;
   font-weight: 900;
 }
 
@@ -264,7 +276,7 @@ a:hover {
   top: 0;
   width: 90%;
   overflow: visible;
-  transition: all .7s ease-in;
+  transition: all .5s ease-in;
   z-index: 2;
 
 }
@@ -549,7 +561,7 @@ a:hover {
   transform: scale(1.01);
   filter: brightness(110%);
   background-position: left bottom;
-  transition: all 0.75s ease;
+  transition: all 0.25s ease;
 }
 
 .contact-card {
@@ -620,7 +632,7 @@ a:hover {
   margin: 0.25em;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 798px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar {background-color: #111111;}
   .navbar p.navbar-button {
@@ -638,19 +650,15 @@ a:hover {
   }
   .fullname {
     font-size: 2.5em;
-    margin: 0 0 0.5em;
-    box-shadow: inset 0px 0px 0px 1000px #111111;
     padding: 0.20em;
   }
   .role {
     font-size: 1.5em;
-    box-shadow: inset 0px 0px 0px 1000px #111111;
     padding: 0.15em;
     letter-spacing: 0.15em;
   }
   .location-text {
     font-size: 0.9em;
-    box-shadow: inset 0px 0px 0px 1000px #111111;
     padding: 0.4em;
     letter-spacing: 0.05em;
   }
@@ -673,9 +681,6 @@ a:hover {
   .scroller {
     display: none;
   }
-  .contact-heading {
-    font-size: 1.1em;
-  }
   .avatar {
     margin: 1em 0 0 1em;
     width: 90%;
@@ -691,10 +696,6 @@ a:hover {
   .port-title-text {
     width: 100%;
     font-size: 2em;
-
-  }
-  .port-title-card {
-    padding: 3.6vh 0 0 0;
   }
   .content-text {
     font-size: 1em;
@@ -726,7 +727,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 798px) {
   .navbar.responsive {
     position: absolute;
     z-index: 9999;
