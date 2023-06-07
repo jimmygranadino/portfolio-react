@@ -1,5 +1,4 @@
 import React from 'react';
-import Resume from './JGresume.pdf'
 
 const About = () => {
     
@@ -9,7 +8,6 @@ const About = () => {
                 <div className="content about-box night dark-mode light-mode">
                     <h1 className="headings night dark-mode light-mode" id="about">ABOUT:</h1>
                     <p className="content-text night dark-mode light-mode">I'm an enthusiastic developer with an eye towards optimizing business functions. As an analyst by experience, I bring a sociable demeanor while researching challenges and collaborating with cross-functional teams to implement efficient solutions for modern business problems. </p>
-                    <a href={Resume} target="_blank" rel="noopener noreferrer" className="res-link dark-mode light-mode">VIEW MY RESUME</a>
                 </div>
                 <div className="content skills-box night dark-mode light-mode">
                     <h1 className="headings night dark-mode light-mode" id="skills">SKILLS:</h1>
@@ -21,7 +19,7 @@ const About = () => {
                             </svg>
                             <ul className="language-list dark-mode light-mode">
                                 <li>JavaScript</li>
-                                <li>Python</li>
+                                <li>Swift</li>
                                 <li>SQL</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -34,9 +32,9 @@ const About = () => {
                             </svg>
                             <ul className="language-list dark-mode light-mode">
                                 <li>Express</li>
-                                <li>Node.js</li>
-                                <li>React.js</li>
-                                <li>Vue.js</li>
+                                <li>Node</li>
+                                <li>React</li>
+                                <li>Vue</li>
                                 <li>Flask</li>
                             </ul>
                         </p>
